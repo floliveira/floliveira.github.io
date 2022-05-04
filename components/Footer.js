@@ -6,7 +6,8 @@ class Footer extends HTMLElement {
     this.innerHTML = `
     <footer class="footer is-100">
       <div class="mail-me">
-        <a href="mailt:to">
+        <a href="javascript:alert('JavaScript')" onclick="this.href=atob('bWFpbHRvOmZlbGlwZS5sZW1tb3MlNDBpY2xvdWQuY29t'); return true">
+        //<a href="mailto:felipe.lemmos@icloud.com">
           <i class='bx bx-envelope'></i>
         </a>
       </div>
